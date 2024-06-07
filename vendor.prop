@@ -1,2 +1,6 @@
 ## Bluetooth
 bluetooth.device.default_name=Galaxy M31
+
+## Fingerpint
+ro.vendor.fingerprint.type=rear
+ro.vendor.fingerprint.supports_gestures=true
