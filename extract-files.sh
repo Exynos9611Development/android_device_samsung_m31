@@ -11,6 +11,9 @@ function blob_fixup() {
 	vendor/lib*/sensors.sensorhub.so)
             "${PATCHELF}" --replace-needed libutils.so libutils-v32.so "${2}"
             ;;
+    vendor/lib*/sensors.*.so)
+            "${PATCHELF}" --remove-needed libhidltransport.so "${2}"
+            ;;
     esac
 }
 
