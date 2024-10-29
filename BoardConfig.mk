@@ -30,6 +30,10 @@ BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 71106560
 BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 
+## Camera
+SOONG_CONFIG_samsungCameraVars += camera_32bit
+SOONG_CONFIG_samsungCameraVars_camera_32bit := true
+
 ## Filesystem config
 include device/samsung/universal9611-common/fsconfig_dynamic.mk
 
