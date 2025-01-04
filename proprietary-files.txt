@@ -86,9 +86,3 @@ vendor/lib64/libSEF.quram.so
 vendor/lib64/libsensorlistener.so
 vendor/lib64/libuniapi.so
 vendor/lib64/libuniplugin.so
-
-# Media
-vendor/etc/mixer_gains.xml
-vendor/etc/mixer_gains_rc.xml
-vendor/etc/mixer_paths.xml
-vendor/etc/mixer_paths_rc.xml
