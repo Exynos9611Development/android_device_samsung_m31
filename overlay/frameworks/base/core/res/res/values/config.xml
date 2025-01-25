@@ -609,4 +609,10 @@
 <bool name="config_automatic_brightness_available">true</bool>
 <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 <bool name="config_supportDoubleTapWake">true</bool>
+
+  <!-- Enable system navigation keys. -->
+  <bool name="config_supportSystemNavigationKeys">true</bool>
+
+  <!-- Specify if the fingerprint hardware support gestures-->
+  <bool name="config_fingerprintSupportsGestures">true</bool>
 </resources>
