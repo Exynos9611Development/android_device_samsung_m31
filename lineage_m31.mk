@@ -27,9 +27,9 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 # Build fingerprint
-BUILD_FINGERPRINT := "samsung/m31nsxx/m31:12/SP1A.210812.016/M315FXXU3CWA2:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRIVATE_BUILD_DESC="m31nsxx-user 12 SP1A.210812.016 M315FXXU3CWA2 release-keys"
+	BuildDesc="m31nsxx-user 12 SP1A.210812.016 M315FXXU3CWA2 release-keys" \
+	BuildFingerprint="samsung/m31nsxx/m31:12/SP1A.210812.016/M315FXXU3CWA2:user/release-keys"
 
 ## Device configuration
 PRODUCT_NAME := lineage_m31
