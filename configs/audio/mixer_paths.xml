@@ -1525,7 +1525,7 @@
 
 	<path name="media-mic">
 		<path name="route-ap-record" />
-		<path name="dev-main-mic" />
+		<path name="dev-dual-mic" />
 	</path>
 
 	<path name="media-2nd-mic">
@@ -3399,8 +3399,9 @@
 	<!-- Input stage volume -->
 	<!-- media input volume -->
 	<path name="gain-media-mic">
-		<ctl name="IN3 Boost Volume" value="37"/>
-		<ctl name="STO1 ADC Capture Volume" value="34 34"/>
+		<ctl name="IN3 Boost Volume" value="58"/>
+		<ctl name="IN4 Boost Volume" value="58"/>
+		<ctl name="STO1 ADC Capture Volume" value="57 57"/>
 	</path>
 
 	<path name="gain-media-2nd-mic">
@@ -3552,13 +3553,11 @@
 
 	<!-- recognition input volume -->
 	<path name="gain-recognition-mic">
-		<ctl name="IN3 Boost Volume" value="53"/>
-		<ctl name="STO1 ADC Capture Volume" value="47 47"/>
+		<path name="gain-media-mic" />
 	</path>
 
 	<path name="gain-recognition-2nd-mic">
-		<ctl name="IN4 Boost Volume" value="41"/>
-		<ctl name="STO1 ADC Capture Volume" value="47 47"/>
+		<path name="gain-media-2nd-mic" />
 	</path>
 
 	<path name="gain-recognition-headset-mic">
