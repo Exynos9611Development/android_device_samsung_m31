@@ -10,9 +10,6 @@ vendor/lib64/sensors.inputvirtual.so
 vendor/lib64/sensors.sensorhub.so
 
 ## TEE (Trusted Execution Environment) Firmwares
-vendor/app/mcRegistry/00060308060501020000000000000000.tabin
-vendor/app/mcRegistry/07061000000000000000000000000000.tlbin
-vendor/app/mcRegistry/09090000070100010000000000000000.tlbin
 vendor/tee/00000000-0000-0000-0000-000000010081
 vendor/tee/00000000-0000-0000-0000-000000020081
 vendor/tee/00000000-0000-0000-0000-000000534b4d
