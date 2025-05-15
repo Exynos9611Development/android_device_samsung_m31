@@ -31,9 +31,7 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 71106560
 BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 
 ## Camera
-SOONG_CONFIG_NAMESPACES += samsungCameraVars
-SOONG_CONFIG_samsungCameraVars += extra_ids
-SOONG_CONFIG_samsungCameraVars_extra_ids := 4,20,23,50,52,54
+$(call soong_config_set,samsungCameraVars,extra_ids,4,20,23,50,52,54)
 
 ## Filesystem config
 include device/samsung/universal9611-common/fsconfig_dynamic.mk
