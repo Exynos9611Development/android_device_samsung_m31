@@ -62,13 +62,6 @@ vendor/firmware/calliope_sram.bin
 vendor/firmware/rtdsp_param.bin
 
 ## Camera
-vendor/lib/hw/camera.exynos9611.so
-vendor/lib/libexynoscamera3.so
-vendor/lib/libsecnativefeature.so
-vendor/lib/libSEF.quram.so
-vendor/lib/libsensorlistener.so
-vendor/lib/libuniapi.so
-vendor/lib/libuniplugin.so
 vendor/lib64/hw/camera.exynos9611.so
 vendor/lib64/libexynoscamera3.so
 vendor/lib64/libsecnativefeature.so
