@@ -2,9 +2,6 @@
 
 ## Sensors
 vendor/etc/sensors/hals.conf
-vendor/lib/sensors.grip.so
-vendor/lib/sensors.inputvirtual.so
-vendor/lib/sensors.sensorhub.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.inputvirtual.so
 vendor/lib64/sensors.sensorhub.so
