@@ -66,3 +66,8 @@ vendor/lib64/libSEF.quram.so
 vendor/lib64/libsensorlistener.so
 vendor/lib64/libuniapi.so
 vendor/lib64/libuniplugin.so
+
+## NFC
+vendor/firmware/nfc/sec_s3nrn82_firmware.bin
+vendor/etc/init/init.nfc.samsung.rc
+vendor/etc/nfc/sec_s3nrn82_rfreg.bin
