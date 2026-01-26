@@ -61,7 +61,6 @@ vendor/firmware/rtdsp_param.bin
 ## Camera
 vendor/lib64/hw/camera.exynos9611.so
 vendor/lib64/libexynoscamera3.so
-vendor/lib64/libsecnativefeature.so
 vendor/lib64/libSEF.quram.so
 vendor/lib64/libsensorlistener.so
 vendor/lib64/libuniapi.so
